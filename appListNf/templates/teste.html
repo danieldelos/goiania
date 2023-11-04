@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h1>Olá Mundo, teste html criado pelo django</h1>
+    <h2>{{renderTest}}</h2>
+    <form action="{% url 'executar_script' %}" method="post">
+      {% csrf_token %}
+      <button class="btn_exec" type="submit">Executar Script</button>
+    </form>
+    <form action="{% url 'calcular' %}" method="post">
+      {% csrf_token %}
+      <input type="number" name="valor1" placeholder="Valor 1" />
+      <input type="number" name="valor2" placeholder="Valor 2" />
+      <p>{{renderTest}}</p>
+      <button type="submit">Calcular</button>
+    </form>
+  </body>
+</html>

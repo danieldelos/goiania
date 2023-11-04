@@ -1,0 +1,59 @@
+{% extends 'base.html' %} {% block title %}Lista de notas fiscais{% endblock %}
+{% block content %}
+<h1>Lista de contratos para emissão de notas de Serviço</h1>
+
+
+<form method="POST" enctype="multipart/form-data" action="{% url 'upload_planilha' %}" class="form_upload">
+  {% csrf_token %}
+  <label> Última nota emitida:</label>
+  <input type="text" name="input_value" id="initial" required>
+  <input type="file" name="arquivo" id="id_arquivo">
+  <button type="submit">Enviar</button>
+</form>
+
+<div class="button-container">
+  <form action="{% url 'run_test_view' %}" method="post">
+    {% csrf_token %}
+    <button class="btn_exec" type="submit">Emitir notas</button>
+  </form>
+
+  <form action="{% url 'imprimir_notas' %}" method="post">
+    {% csrf_token %}
+    <button class="btn_exec" type="submit">Gerar PDF</button>
+  </form>
+</div>
+
+<table class="linhasAlternadas">
+  <tr>
+    {% for header_table in column %}
+    <th>{{ header_table }}</th>
+    {% endfor %}
+  </tr>
+  {% for data in selected_data %}
+  <tr>
+    <td>{{ data.0 }}</td> 
+    <td>{{ data.1 }}</td> 
+    <td>{{ data.2 }}</td> 
+    <td>{{ data.3 }}</td> 
+    <td>{{ data.4 }}</td> 
+    <td>{{ data.5 }}</td> 
+    <td>{{ data.6 }}</td> 
+    <td>{{ data.7 }}</td> 
+    <td>{{ data.8 }}</td> 
+    <td>{{ data.9 }}</td> 
+    <td>{{ data.10}}</td> 
+    <td>{{ data.11}}</td> 
+    <td>{{ data.12}}</td> 
+    <td>{{ data.13}}</td> 
+    <td>{{ data.14}}</td> 
+    <td>{{ data.15}}</td> 
+    <td>{% if data.16 %} <span class="icone-certo">Emitida</span> {% else %} <span class="icone-x">Pendente</span> {% endif %}</td>
+    <td>{{ data.17}}</td> 
+    <td><a href="{{ data.18 }}">{{ data.18 }}</a></td> 
+  </tr>
+  {% endfor %}
+</table>
+  {% endblock %}
+</form>
+
+

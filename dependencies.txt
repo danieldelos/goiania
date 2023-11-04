@@ -1,0 +1,16 @@
+altgraph==0.17.4
+black==23.3.0
+cx-Freeze==6.15.10
+djangorestframework==3.14.0
+ipdb==0.13.13
+openpyxl==3.1.2
+pandas==2.0.1
+pdfkit==1.0.0
+pip==23.3.1
+pytest==7.3.1
+pywin32-ctypes==0.2.2
+requests==2.31.0
+selenium-wire==5.1.0
+tk==0.1.0
+weasyprint==60.1
+zopfli==0.2.3

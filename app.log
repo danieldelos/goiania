@@ -1,0 +1,21 @@
+2023-11-01 09:28:56,048 - __main__ - INFO - Servidor Django iniciado com sucesso.
+2023-11-01 09:29:01,681 - __main__ - INFO - Aplicação aberta no navegador.
+2023-11-01 11:09:22,001 - __main__ - INFO - Servidor Django iniciado com sucesso.
+2023-11-01 11:09:27,645 - __main__ - INFO - Aplicação aberta no navegador.
+2023-11-01 11:26:03,495 - __main__ - INFO - Servidor Django iniciado com sucesso.
+2023-11-01 11:26:09,097 - __main__ - INFO - Aplicação aberta no navegador.
+2023-11-01 14:15:53,708 - __main__ - INFO - venv/Scripts/activate
+2023-11-01 14:15:53,708 - __main__ - INFO - este é o comando: "call venv/Scripts/activate && python manage.py runserver"
+2023-11-01 14:15:53,744 - __main__ - INFO - Servidor Django iniciado com sucesso.
+2023-11-01 14:15:59,205 - __main__ - INFO - Aplicação aberta no navegador.
+2023-11-03 10:42:03,653 - __main__ - INFO - C:\Users\daniel.barbosa\Desktop\Projetos Atuais\NF-Gyn\full_project\venv\Scripts\activate
+2023-11-03 10:42:03,658 - __main__ - INFO - este é o comando: "call "C:\Users\daniel.barbosa\Desktop\Projetos Atuais\NF-Gyn\full_project\venv\Scripts\activate" && python manage.py runserver"
+2023-11-03 10:42:03,751 - __main__ - INFO - Servidor Django iniciado com sucesso.
+2023-11-03 10:42:10,741 - __main__ - INFO - Aplicação aberta no navegador.
+2023-11-03 15:39:59,936 - __main__ - INFO - C:\Users\daniel.barbosa\Desktop\Projetos Atuais\NF-Gyn\full_project\venv\Scripts\activate
+2023-11-03 15:39:59,942 - __main__ - INFO - este é o comando: "call "C:\Users\daniel.barbosa\Desktop\Projetos Atuais\NF-Gyn\full_project\venv\Scripts\activate" && python manage.py runserver"
+2023-11-03 15:39:59,962 - __main__ - INFO - Servidor Django iniciado com sucesso.
+2023-11-03 15:40:06,482 - __main__ - INFO - Aplicação aberta no navegador.
+2023-11-03 19:49:38,442 - __main__ - INFO - Iniciando o servidor Django com o comando: "python manage.py runserver"
+2023-11-03 19:49:38,470 - __main__ - INFO - Servidor Django iniciado com sucesso.
+2023-11-03 19:49:43,991 - __main__ - INFO - Aplicação aberta no navegador.

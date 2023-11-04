@@ -1,0 +1,83 @@
+.btn_exec {
+  margin-bottom: 10px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  margin-top: 12px;
+  width: 100px;
+  height: 24px;
+  /* border: 2px solid; */
+  border: none;
+  border-radius: 4%;
+  padding: 0%;
+}
+
+.btn_exec:hover {
+  background-color: #80e497;
+  color: grey;
+  cursor: pointer;
+}
+
+.form_upload {
+  margin-bottom: 10px;
+  /* border: solid; */
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+
+
+table.linhasAlternadas tr:nth-child(even) /* CSS3 */ {
+  background: #f0ffff;
+  border: 1px solid black;
+}
+
+table.linhasAlternadas td {
+  border: 1px solid black;
+  font-size: 12px;
+} 
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgba(128, 128, 128, 0);
+}
+
+    /* Estilos da tabela */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    /* Estilo das cores alternadas das linhas */
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+  
+  .initial_number{
+    margin-bottom: 10px;
+  }
+
+  .button-container form {
+    display: inline-block;
+    vertical-align: top;  /* Isso garante que os formulários estejam alinhados verticalmente no topo, caso tenham alturas diferentes. */
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+}
